@@ -1,14 +1,12 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
-import listeners.mylistener;
+import listeners.MyListenerReporting;
 import utility.BaseClass;
 
-@Listeners(mylistener.class)
+@Listeners(MyListenerReporting.class)
 public class SocialMediaTesting extends BaseClass{
 
 	//@Test(groups = {"Smoke", "Regression"}, retryAnalyzer = MyRetryLogic.class)
